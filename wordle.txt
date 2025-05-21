@@ -1,0 +1,15 @@
+import random
+
+array = ["accident", "horse", "birds", "cat", "plane"]
+
+word = random.choice(array)  
+
+
+
+while True:
+    userAnswer = input("Enter a five letter word: ")
+    if userAnswer == word:
+        print("Well done!")
+        break
+    else:
+        print("Try again")
